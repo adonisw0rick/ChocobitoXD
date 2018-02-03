@@ -1,0 +1,56 @@
+{ 
+    
+    "espinascirculopng": [
+        
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   556, 150  ,  521, 35  ,  678, 55  ,  705, 145  ,  632, 202  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   161, 217  ,  521, 35  ,  348, 232  ,  135, 322  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   900, 232  ,  943, 131  ,  998, 305  ,  938, 307  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   521, 35  ,  556, 150  ,  348, 232  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   943, 131  ,  900, 232  ,  705, 145  ,  678, 55  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   998, 305  ,  943, 131  ,  1118, 372  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   971, 1026  ,  896, 919  ,  946, 834  ,  1110, 792  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   236, 844  ,  290, 855  ,  382, 962  ,  438, 1110  ,  258, 1024  ,  143, 861  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   971, 1026  ,  664, 1121  ,  438, 1110  ,  660, 1007  ,  896, 919  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   438, 1110  ,  382, 962  ,  660, 1007  ]
+        }
+    ]
+}

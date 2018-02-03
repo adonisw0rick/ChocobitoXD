@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ChocobitoXD</title>
+    
+    <link type="text/css" href="jquery-ui-1.12.1.custom/jquery-ui.css" media="screen" rel="stylesheet" id="linkestilo" />
+    <script src="jquery-ui-1.12.1.custom/external/jquery/jquery.js"></script>
+    <script src="jquery.tablesorter.js"></script>
+    <script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+    <link type="text/css" href="styles.css" media="screen" rel="stylesheet" id="linklocal" />
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" media="screen" rel="stylesheet" type="text/css"
+    />
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script src="modernizr-custom.js"></script>
+    <script src="script.js"></script>
+    <script src="funciones.js"></script>
+    <script type="text/javascript" src="phaser.min.js"></script>
+</head>
+
+<body>
+
+
+    <div id="dialog-form" title="Añadir jugador">
+        <p class="validateTips">Escribe tu nombre y selecciona un icono de perfil</p>
+    
+        <form>
+            <fieldset>
+                <label for="name"><h2>Nombre</h2></label>
+                <input type="text" name="name" id="name" value="Anonymous" class="text ui-widget-content ui-corner-all">
+                <select required id="icono">
+                    <option value="chocobo" selected>seleccione</option>
+                    <option value="final7">Cloud</option>
+                    <option value="final8">Squall</option>
+                    <option value="final10">Tidus</option>
+                    <option value="final102">Yuna</option>
+                    <option value="final13">Lightning</option>
+                </select>
+                <div id="resultados"></div>
+                <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+            </fieldset>
+        </form>
+    </div>
+    
+    <div id='opciones'>
+        <h1>ChocobitoXD</h1>
+        <button class="ui-button ui-widget ui-corner-all" id="start">START</button>
+<div id="chocobos">
+    <script src="chocoboscript.js"></script>
+</div>
+    <div id="volver-form" title="Volver a jugar">
+        <form>
+            <fieldset>
+                <div id="users-contain" class="ui-widget">
+                    <h1>Marcador</h1>
+                    <table id="users" class="ui-widget ui-widget-content">
+                        <thead>
+                            <tr class="ui-widget-header ">
+                                <th>Nombre</th>
+                                <th>Velocidad Máxima</th>
+                                <th>Puntuación</th>
+                                <th>Icono</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+                <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+            </fieldset>
+        </form>
+    </div>
+        </div>
+</body>
+
+</html>

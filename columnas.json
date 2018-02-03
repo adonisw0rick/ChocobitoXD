@@ -1,0 +1,107 @@
+{
+    "columnapeq1": [
+        {
+            "density": 2,
+            "friction": 0,
+            "bounce": 0,
+            "filter": {
+                "categoryBits": 1,
+                "maskBits": 65535
+            },
+            "shape": [
+                2,
+                62,
+                1,
+                10,
+                61,
+                9,
+                64,
+                63
+            ]
+        }
+    ],
+    "columnapeq2": [
+        {
+            "density": 2,
+            "friction": 0,
+            "bounce": 0,
+            "filter": {
+                "categoryBits": 1,
+                "maskBits": 65535
+            },
+            "shape": [
+                2,
+                102,
+                0,
+                10,
+                61,
+                12,
+                64,
+                103
+            ]
+        }
+    ],
+    "columnamed1": [
+        {
+            "density": 2,
+            "friction": 0,
+            "bounce": 0,
+            "filter": {
+                "categoryBits": 1,
+                "maskBits": 65535
+            },
+            "shape": [
+                64,
+                12,
+                64,
+                127,
+                2,
+                126,
+                2,
+                10
+            ]
+        }
+    ],
+    "columna": [
+        {
+            "density": 2,
+            "friction": 0,
+            "bounce": 0,
+            "filter": {
+                "categoryBits": 1,
+                "maskBits": 65535
+            },
+            "shape": [
+                2,
+                173,
+                3,
+                11,
+                62,
+                13,
+                64,
+                174
+            ]
+        }
+    ],
+    "columnagrande": [
+        {
+            "density": 2,
+            "friction": 0,
+            "bounce": 0,
+            "filter": {
+                "categoryBits": 1,
+                "maskBits": 65535
+            },
+            "shape": [
+                2,
+                248,
+                3,
+                14,
+                61,
+                15,
+                64,
+                249
+            ]
+        }
+    ]
+}
